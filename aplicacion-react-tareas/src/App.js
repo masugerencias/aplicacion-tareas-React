@@ -1,6 +1,6 @@
 import './App.css';
 import logo1 from './imagenes/logo1.jpg'
-import Tarea from './componentes/Tarea';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis tareas</h1>
-        <Tarea texto="esto es el prop joder!"/>
+        <ListaDeTareas />
       </div>
     </div>
   );
